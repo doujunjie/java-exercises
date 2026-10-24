@@ -1,0 +1,19 @@
+# 编译输出
+out/
+bin/
+target/
+
+# IDEA 个人配置（每个人不同，不纳入版本库）
+.idea/workspace.xml
+.idea/usage.statistics.xml
+.idea/shelf/
+.idea/dictionaries/
+.idea/httpRequests/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 日志
+*.log
