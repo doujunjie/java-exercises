@@ -29,6 +29,6 @@ public class Ex03Temperature {
     /** 摄氏温度转华氏温度：F = C * 9 / 5 + 32 */
     public static double celsiusToFahrenheit(double celsius) {
         // TODO 实现转换（注意 9 / 5 是整数除法）
-        return 0;
+            return celsius * 9 / 5.0 + 32;
     }
 }

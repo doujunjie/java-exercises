@@ -30,9 +30,9 @@ public class Ex02TypeConvert {
 
         // TODO 调用 toInt(3.99)，打印结果，并自检是否等于 3
         // 提示：输出格式可以是 (int) 3.99 = 3
-
+            System.out.println("(int) 3.99 = " + toInt(3.99));
         // TODO 调用 codeToChar(65)，打印结果，并自检是否等于 'A'
-
+        System.out.println("65 -> " + codeToChar(65));
         // char 与 int 互转：char 本质上是 16 位无符号整数，可以直接赋给 int
         char letter = 'A';
         int code = letter;
@@ -48,12 +48,14 @@ public class Ex02TypeConvert {
     /** 把 double 强制转换成 int：小数部分直接截断，不做四舍五入 */
     public static int toInt(double d) {
         // TODO 实现强制转换
-        return 0;
+        int truncated = (int) d;
+        return truncated;
     }
 
     /** 把整数编码转换成对应的 char 字符：65 -> 'A' */
     public static char codeToChar(int code) {
         // TODO 实现 int 到 char 的转换
-        return '\0';
+        char character = (char) code;
+        return character;
     }
 }

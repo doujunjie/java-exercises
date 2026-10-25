@@ -23,5 +23,13 @@ public class Ex01Profile {
         // TODO 声明并赋值 4 个变量，然后逐行打印个人信息
         // 提示：变量名建议用 name、age、height、inSchool
         // 提示：字符串和其它类型用 + 连接时，会自动转换成文字再拼接
+        String name = "张三";
+        int age = 20;
+        double height = 1.75;
+        boolean inSchool = true;
+        System.out.println("姓名：" + name);
+        System.out.println("年龄：" + age);
+        System.out.println("身高：" + height + " 米");
+        System.out.println("是否在校：" + inSchool);
     }
 }
